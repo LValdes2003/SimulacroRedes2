@@ -22,11 +22,21 @@ Primero, se convierte a binario: 10101100.00010010.00011010.00000000. 32 - 23 = 
 Convierte a binario: 10101100.00011110.01000011.11000000. Los últimos ceros son direcciones disponibles. Encuentra el segundo valor más grande: 10101100.00011110.01000011.11111110 o 172.30.67.254.
 
 #### b) Para el host 172.22.53.199 con máscara 255.255.252.0, determina el rango de direcciones válidas (primera y última dirección de host) de la subred.
-Convierte a binario: 10101100.00010110.00110101.11000111, la subred a la que pertenece este host debe tener 10 ceros disponibles: 10101100.00010110.00110100.00000000 o 172.22.52.0. La primera dirección utilizable para un host es 172.22.52.0, y la última es 10101100.00010110.00110111.11111110 o 172.22.55.254.
+Convierte a binario: 10101100.00010110.00110101.11000111, la subred a la que pertenece este host debe tener 10 ceros disponibles: 10101100.00010110.00110100.00000000 o 172.22.52.0. La primera dirección utilizable para un host es 172.22.52.1, y la última es 10101100.00010110.00110111.11111110 o 172.22.55.254.
 
 ### Pregunta 4
 
+#### a) Calcula el número de equipos (hosts) que pueden conectarse en la red 172.26.0.0 con máscara 255.255.255.192.
+Máscara en binario: 11111111.11111111.11111111.11000000. 6 ceros disponibles. 2^6 - 2 (red y broadcast) = 62.
+
+#### b) Dado el host 172.18.171.190/23, identifica a qué subred pertenece, explicando cómo se determina el bloque correspondiente.
+Binario: 10101100.00010010.10101011.10111110. 9 ceros disponibles: 10101100.00010010.10101010.00000000 o subred 172.18.170.0/23. 
+
 ### Pregunta 5
+
+#### Explica cómo se determina el número de subredes disponibles utilizando la fórmula: Nº de subredes = 2^s. donde s es el número de bits prestados al identificador de subred. Aplica este concepto a un escenario en el que se requieren al menos 4 subredes para segmentar una red.
+
+
 
 ### Pregunta 6
 
