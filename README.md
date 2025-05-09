@@ -18,6 +18,12 @@ Primero, se convierte a binario: 10101100.00010010.00011010.00000000. 32 - 23 = 
 
 ### Pregunta 3
 
+#### a) Con la subred 172.30.67.192 y máscara 255.255.255.192, determina cuál es la última dirección de host válida (excluyendo la dirección de broadcast).
+Convierte a binario: 10101100.00011110.01000011.11000000. Los últimos ceros son direcciones disponibles. Encuentra el segundo valor más grande: 10101100.00011110.01000011.11111110 o 172.30.67.254.
+
+#### b) Para el host 172.22.53.199 con máscara 255.255.252.0, determina el rango de direcciones válidas (primera y última dirección de host) de la subred.
+Convierte a binario: 10101100.00010110.00110101.11000111, la subred a la que pertenece este host debe tener 10 ceros disponibles: 10101100.00010110.00110100.00000000 o 172.22.52.0. La primera dirección utilizable para un host es 172.22.52.0, y la última es 10101100.00010110.00110111.11111110 o 172.22.55.254.
+
 ### Pregunta 4
 
 ### Pregunta 5
